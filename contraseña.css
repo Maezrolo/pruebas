@@ -29,5 +29,29 @@ body{
     padding-top: 12px;
     border-radius: 16px;
 }
-
-
+/* nose */
+.box h2{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: red;
+}
+.input_wrapper{
+    position: relative;
+    padding: 15px 0 0;
+}
+/* define el fondo del cuadrado */
+.input_field{
+    outline: 1.5px solid var(--secondary);
+    font-size: 1rem;
+    border-radius: 8px;
+    color: var(--secondary);
+    padding: 8px;
+    border: none;
+    padding-right: 32px;
+    background: transparent;
+    transition: all 0.2s;
+}
+.input_field::placeholder{
+    color: transparent;
+}
