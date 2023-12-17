@@ -55,3 +55,60 @@ body{
 .input_field::placeholder{
     color: transparent;
 }
+.input_field:placeholder-shown-.input_label{
+    font-size: 1rem;
+    cursor: text;
+    color: var(--secondary);
+    top: 24px;
+}
+
+label.input_label{
+    position: absolute;
+    top: 6px;
+    padding: 0 4px;
+    background-color: var(--box-background);
+    display: block;
+    font-size: 14px;
+    left: 8px;
+    color: var(--secondary);
+    transition: 0.3s;
+}  
+
+/* label,.input_field:focus-.input_label{
+    position: absolute;
+    top: 6px;
+    padding: 0 4px;
+    background-color: var(--box-background);
+    display: block;
+    font-size: 14px;
+    left: 8px;
+    color: var(--secondary);
+    transition: 0.3s;
+} */
+.input_field:focus-.input_label{
+    color: var(--primary);
+}
+.input_field:focus{
+    outline: 1.5px solid var(--primary);
+}
+
+.input_icon{
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    width: 28px;
+    height: 28px;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    width: 28px;
+    height: 28px;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    cursor: pointer;
+}
